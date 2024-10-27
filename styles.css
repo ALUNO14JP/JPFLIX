@@ -1,0 +1,78 @@
+body {
+    color: rgb(255, 255, 255);
+    background: black;
+    font-family: "Overpass Mono", monospace;
+    
+}
+
+
+header {
+    border-bottom: solid 2px rgb(228, 70, 42);
+}
+
+body {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    margin: 0px;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 5px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(102, 94, 212);
+}
+
+.chamada {
+    background: rgb(231, 163, 163);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+
+h1 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  img {
+    height: 200px;
+  }
+
+
+  .categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+  }
+
+
+  .categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px
+  }
+
+  .categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid blue;
+}
+
+.categoria h2 {
+    color: rgb(102, 94, 212);
+}
